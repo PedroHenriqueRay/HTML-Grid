@@ -1,0 +1,155 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Pedro Henrique Pontes RM96223</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+    <!-- Meu CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+
+<body class="bg-dark text-light">
+    <div class="container">
+
+        <!-- primeira aba -->
+        <div class="row">
+
+            <!-- 1a. coluna -->
+            <div class=" col-12 col-sm-12 col-md-6">
+                <img src="./images/img-slider.png" class="img-fluid" alt="Astronauta">
+            </div>
+            <!-- fim 1a. coluna -->
+
+            <!-- 2a.coluna -->
+            <div class=" col-12 col-sm-12 col-md-6">
+                <h2 class="display-2 text">Discovery and collect your favorites NTFs</h2>
+
+                <!-- usuario -->
+                <label for="usuario " class="form-label d-flex justify-content-start my-3">User</label>
+                <input type="text" class="form-control" id="usuario" name="usuario" placeholder="Ex:user123"
+                    minlength="6" maxlength="15" requered>
+
+                <!-- password -->
+                <label for="usuario " class="form-label d-flex justify-content-start my-3">Password</label>
+                <input type="text" class="form-control" id="senha" name="usuario" placeholder="Ex:12suaSenha@!#"
+                    minlength="6" maxlength="15" requered>
+
+                <div class="d-flex align-items justify-content-end">
+                    <a href="" class="btn bg-light text-dark my-3 mx-3" data-bs-toggle="modal"
+                        data-bs-target="#Ntfmodal">NFTs gallery</a>
+                    <a href="" class="btn bg-dark my-3 text-light border">Access acount</a>
+                </div>
+            </div>
+            <!-- fim 2a.coluna -->
+        </div>
+
+            <!-- modal -->
+            <div class="modal fade" id="Ntfmodal" tabindex="-1" aria-labelledby="NtfmobalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title text-dark" id="modalGalleryLabel">NFTs Gallery</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="row">
+
+                                <img class="col-12 col-lg-4 col-sm-12 col-md-6 my-3 rounded-4"
+                                    src="./images/modal-galeria/galeria1.jpg" alt="foguete roxo">
+                                    
+                                <img class="col-12 col-lg-4 col-sm-12 col-md-6 my-3 rounded-4"
+                                    src="./images/modal-galeria/galeria2.jpg" alt="alvo">
+
+                                <img class="col-12 col-lg-4 col-sm-12 col-md-6 my-3 rounded-4"
+                                    src="./images/modal-galeria/galeria3.jpg" alt="urso na lua">
+
+                                <img class="col-12 col-lg-4 col-sm-12 col-md-6 my-3 rounded-4"
+                                    src="./images/modal-galeria/galeria4.jpg" alt="cofre com moedas">
+
+                                <img class="col-12 col-lg-4 col-sm-12 col-md-6 my-3 rounded-4"
+                                    src="./images/modal-galeria/galeria5.jpg" alt="varias mãos">
+
+                                <img class="col-12 col-lg-4 col-sm-12 col-md-6 my-3 rounded-4"
+                                    src="./images/modal-galeria/galeria6.jpg" alt="arvore de moedas">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- fim modal -->
+
+        <!-- fim linha do Grid -->
+
+        <div class="row text-light ">
+            <h2>Categories</h2>
+
+            <div class="my-3 col-md-6 col-lg-4">
+                <div class="col bg-dark d-flex align-items-center flex-column mb-3">
+                    <img src="./images/categorias/category-1.jpg" class="rounded-circle img-fluid" alt="foguete">
+                    <h5 class="title">Browse by Template</h5>
+                    <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur,
+                        hic!</p>
+                </div>
+            </div>
+
+            <div class="my-3 col-md-6 col-lg-4">
+                <div class="col bg-dark d-flex align-items-center flex-column mb-3">
+                    <img src="./images/categorias/category-2.jpg" class="rounded-circle img-fluid" alt="urso no planeta">
+                    <h5 class="title">UI by Template</h5>
+                    <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur,
+                        hic!</p>
+                </div>
+            </div>
+            <div class="my-3 col-md-6 col-lg-4">
+                <div class="col bg-dark d-flex align-items-center flex-column mb-3">
+                    <img src="./images/categorias/category-3.jpg" class="rounded-circle img-fluid" alt="mão escrevendo">
+                    <h5 class="title">Graphics Design</h5>
+                    <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur,
+                        hic!</p>
+                </div>
+            </div>
+            <div class="my-3 col-md-6 col-lg-4">
+                <div class="col bg-dark d-flex align-items-center flex-column mb-3">
+                    <img src="./images/categorias/category-4.jpg" class="rounded-circle img-fluid" alt="arvore de dinheiro">
+                    <h5 class="title">Social Network</h5>
+                    <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur,
+                        hic!</p>
+                </div>
+            </div>
+            <div class="my-3 col-md-6 col-lg-4">
+                <div class="col bg-dark d-flex align-items-center flex-column mb-3">
+                    <img src="./images/categorias/category-5.jpg" class="rounded-circle img-fluid" alt="saco de dinheiro">
+                    <h5 class="title">Browse by Template</h5>
+                    <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur,
+                        hic!</p>
+                </div>
+            </div>
+            <div class="my-3 col-md-6 col-lg-4">
+                <div class="col bg-dark d-flex align-items-center flex-column mb-3">
+                    <img src="./images/categorias/category-6.jpg" class="rounded-circle img-fluid" alt="cofre">
+                    <h5 class="title">Browse by Template</h5>
+                    <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur,
+                        hic!</p>
+                </div>
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
